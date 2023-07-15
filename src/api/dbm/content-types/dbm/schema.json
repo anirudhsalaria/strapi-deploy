@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dbms",
+  "info": {
+    "singularName": "dbm",
+    "pluralName": "dbms",
+    "displayName": "dbm"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Files": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "Details": {
+      "type": "text"
+    }
+  }
+}
