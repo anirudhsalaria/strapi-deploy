@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cncs",
+  "info": {
+    "singularName": "cnc",
+    "pluralName": "cncs",
+    "displayName": "cnc"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Detail": {
+      "type": "string"
+    },
+    "File": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

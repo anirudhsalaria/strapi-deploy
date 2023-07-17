@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "daas",
+  "info": {
+    "singularName": "daa",
+    "pluralName": "daas",
+    "displayName": "daa"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Details": {
+      "type": "string"
+    },
+    "Files": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
